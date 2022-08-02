@@ -1,5 +1,5 @@
 #!/bin/bash
-yum update -y && yum install git docker -y && systemctl restart docker && systemctl enable docker
+yum install git -y
 git clone https://github.com/prb71/pipeline-ec2.git
       
 
