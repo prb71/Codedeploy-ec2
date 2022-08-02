@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello-world"
+docker run -itd --name pavan alpine
