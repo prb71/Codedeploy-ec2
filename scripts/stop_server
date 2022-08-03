@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo docker rm -f $(docker ps -a -q)
-sudo docker rmi --all --force
+sudo docker rmi -f $(docker images -q)
 # docker-compose down
 # docker rmi -f $(docker images -f "dangling=true" -q)
       
