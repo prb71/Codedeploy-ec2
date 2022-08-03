@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /home/ec2-user
+rm -rf pipeline-ec2
 git clone https://github.com/prb71/pipeline-ec2.git
 cd pipeline-ec2
 chmod +x script.sh 
