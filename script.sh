@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -itd --name pavan nginx
+docker run -itd --name pavan httpd
