@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -itd --name pavan2 httpd
+docker run -itd --name pavan3 alpine
